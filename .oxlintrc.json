@@ -1,0 +1,6 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": ["typescript", "oxc", "unicorn"],
+    "ignorePatterns": ["node_modules", "dist", ".vercel", "images-raw"],
+    "rules": {}
+}
