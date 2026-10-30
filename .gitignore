@@ -1,0 +1,23 @@
+# dependencies and build output
+node_modules
+dist
+
+# original photos (full size). `npm run images` turns them into public/images/*.webp, which are committed
+images-raw/
+
+# client correspondence and research drops (not part of the site)
+context/
+
+# local tooling / editor config
+.claude/
+.vercel
+
+# environment
+.env
+.env.*
+!.env.example
+
+# OS cruft
+.DS_Store
+Thumbs.db
+*.local
