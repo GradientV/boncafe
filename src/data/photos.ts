@@ -1,6 +1,6 @@
 // every photo on the site: file, alt text, crop point and where it came from.
 //
-//   source 'bon-cafe'  the café's own photo (their DoorDash store photo)
+//   source 'bon-cafe'  the café's own photo (their DoorDash store photo, their Instagram)
 //   source 'unsplash'  a free stock placeholder (Unsplash License: free for commercial use, no
 //                      attribution required). Swap these for the café's own photos before launch
 //
@@ -64,6 +64,14 @@ export const PHOTOS = {
         source: 'bon-cafe',
         credit: 'Bon Café et Restaurant (their DoorDash store photo)',
         focus: '40% 45%'
+    },
+    bulgogiUdon: {
+        file: 'bulgogi-udon',
+        alt: 'Bon Café’s bulgogi udon with kimchi, with chopsticks and a spoon on the side',
+        source: 'bon-cafe',
+        credit: 'Bon Café et Restaurant (their Instagram post, Nov 14, 2025; cropped to remove the caption)',
+        link: 'https://www.instagram.com/p/DRDbVHREoPM/',
+        focus: '45% 50%'
     },
     latte: {
         file: 'latte',

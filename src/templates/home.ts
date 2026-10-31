@@ -226,12 +226,12 @@ function orderAndStay(): SafeHtml {
         { icon: 'armchair', title: 'Plenty of seats', body: 'Room to work, read or meet.' },
         { icon: 'train', title: 'By subway', body: '7 train to 40 St–Lowery St, two blocks away.' }
     ];
-    const card = 'aspect-[4/3] overflow-hidden';
+    const card = 'aspect-[3/2] overflow-hidden';
     const zoom = 'size-full transition-transform duration-700 ease-out hover:scale-[1.03]';
     return html`<section class="py-24 md:py-32" aria-label="Order online and stay a while">
         <div class="wrap grid gap-20 md:grid-cols-2 md:gap-10 lg:gap-16">
             <article id="order" class="scroll-mt-28" aria-labelledby="order-title" data-reveal>
-                <div class="${card}">${photo(PHOTOS.tteokbokki, { sizes: '(min-width: 768px) 50vw, 100vw', className: zoom })}</div>
+                <div class="${card}">${photo(PHOTOS.bulgogiUdon, { sizes: '(min-width: 768px) 50vw, 100vw', className: zoom })}</div>
                 <p class="label mt-10">Pickup &amp; delivery</p>
                 <h2 id="order-title" class="mt-6 text-[clamp(2.3rem,4vw,3.4rem)]">Order Online</h2>
                 <p class="${cx('mt-5', BODY)}">Order Bon Café for pickup or delivery through Grubhub or DoorDash, or call us at ${site.phone.display}.</p>

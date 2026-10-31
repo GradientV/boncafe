@@ -52,8 +52,10 @@ Short, credited quotes from public reviews are standard on restaurant sites, but
 
 The café has almost no photos of its own online:
 
-- **Instagram** (@bon_cafe_et_restaurant): mostly menu boards, flyers and stock-style graphics.
-- **DoorDash store header**: a real photo of their bulgogi over rice with a fried egg (1200×672). **This is the one photo of theirs on the site** (the "Korean Classics" section and the share image). The same picture also appears on Yelp, uploaded by a customer account in Apr 2022, so confirm the café has the rights to it.
+- **Instagram** (@bon_cafe_et_restaurant): mostly menu boards, flyers and stock-style graphics. The real photos: **bulgogi udon with kimchi** (Nov 14, 2025, 1080×1080, with a "Bulgogi upon wt kimchi" caption printed on it), a steak plate (2022, not on the current menu), a Halloween photo of a person in the café (not used: shows someone's face), and the profile photo of three drinks by the window (too small, about 320 px; ask for the original).
+- **DoorDash store header**: a real photo of their bulgogi over rice with a fried egg (1200×672). The same picture also appears on Yelp, uploaded by a customer account in Apr 2022, so confirm the café has the rights to it.
+- **On the site from the café:** the bulgogi bowl (the "Korean Classics" section and the share image) and the bulgogi udon (the "Order online" block; cropped from the Instagram post to remove the caption).
+- **Not found:** no storefront photo posted by the café anywhere, no Facebook page, no Uber Eats listing. DoorDash's other images are all ads. Google's "By owner" photo tab needs a signed-in account, so it wasn't checked.
 - **Yelp** (80 photos) and **Google** (262): all uploaded by customers, so they're **not used**. Several are good (the dining room, the counter and pastry case, dishes) and worth asking about.
 - **Their current logo** (Grubhub): a clip-art croissant with "Bon Cafe et Restaurant" in script. The site uses a typographic wordmark instead; ask if they'd like to keep it.
 
@@ -68,10 +70,10 @@ Everything else is a **free stock placeholder from Unsplash** (Unsplash License:
 | Breakfast & Brunch | Croissant sandwich | Luis Covarrubias |
 | Lattes, Teas & Smoothies | Strawberry matcha latte | Lala Azizli |
 | Reviews band, menu banner | Korean table with banchan | Jakub Kapusnak |
-| Order online | Tteokbokki | Marcin Skalij |
+| Order online | *(now Bon Café’s own bulgogi udon photo)* | |
 | Stay a while | Café tables | Petr Sevcovic |
 | Visit | The 7 train on the elevated tracks | Jimmy Hu |
-| (spares) | Latte; iced latte | nameless 3791; Demi DeHerrera |
+| (spares, not shown) | Latte; iced latte; tteokbokki | nameless 3791; Demi DeHerrera; Marcin Skalij |
 
 ## Confirm with the client
 
@@ -85,9 +87,10 @@ Everything else is a **free stock placeholder from Unsplash** (Unsplash License:
 8. **Printing.** Still offered at $1 / 50¢ / students 25¢?
 9. **Coffee basics.** Espresso, americano and cappuccino aren't on the posted board. Add them?
 10. **Catering or large orders?** Not mentioned anywhere; worth a page if they do it.
-11. **Photos.** The draft uses stock placeholders. Get 10–15 of their own (dishes, drinks, the room, the storefront, Shana), or book a quick shoot. Also confirm the DoorDash bulgogi photo is theirs to use.
+11. **Photos.** Two photos are theirs (the DoorDash bulgogi bowl and the Instagram bulgogi udon); the rest are stock placeholders. Get 10–15 of their own (dishes, drinks, the room, the storefront, Shana), or book a quick shoot, plus the original of the drinks-by-the-window profile photo. Also confirm the DoorDash bulgogi photo is theirs to use.
 12. **Domain.** `SITE_URL` in `src/data/site.ts` is set to `boncafeetrestaurant.com`, which was available on Oct 30, 2026 (a registry check quoted $16 for the first year). Not registered yet; availability can change.
 13. **Logo.** The site uses a typographic BON CAFÉ / ET RESTAURANT wordmark and a "BC" monogram icon. Their current logo (a clip-art croissant with script lettering) is on Grubhub; ask which they want.
+14. **Bulgogi udon with kimchi.** Posted on their Instagram (Nov 2025) but not on the delivery-app menu we have. Is it on the menu (maybe under Korean Entrées), and at what price?
 
 ## Sources
 
