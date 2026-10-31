@@ -82,7 +82,7 @@ Anything with `data-season="9-11"` only shows from September through November (N
 
 ## Photos
 
-**Only one photo is the café's own** (the bulgogi bowl, from their DoorDash store). The rest are **free stock placeholders from Unsplash** (Unsplash License: free for commercial use, no attribution required), chosen to match dishes they actually serve. Replace them with Bon Café's own photos before launch; `src/data/photos.ts` marks each one with `source: 'bon-cafe' | 'unsplash'`.
+**Only two photos are the café's own**: the bulgogi bowl (from their DoorDash store) and the bulgogi udon (from their Instagram, cropped to remove a caption). The rest are **free stock placeholders from Unsplash** (Unsplash License: free for commercial use, no attribution required), chosen to match dishes they actually serve. Replace them with Bon Café's own photos before launch; `src/data/photos.ts` marks each one with `source: 'bon-cafe' | 'unsplash'`.
 
 To add or replace a photo:
 
@@ -118,4 +118,4 @@ Import the repo. `vercel.json` sets the build (`npm run build` → `dist`), clea
 
 - Fonts: Jost and Barlow Condensed (SIL Open Font License), self-hosted via Fontsource.
 - Icons: Lucide (ISC).
-- Photos: bulgogi bowl by Bon Café et Restaurant. Placeholders from Unsplash by David B Townsend (avocado toast), Dmitry Pavlovsky (bibimbap), Fahmi Fakhrudin (latte pour), Hyeryeong Song (dining room), Luis Covarrubias (croissant sandwich), nameless 3791 (latte), Lala Azizli (strawberry matcha), Petr Sevcovic (café tables), Marcin Skalij (tteokbokki), Jakub Kapusnak (Korean table), Jimmy Hu (7 train) and Demi DeHerrera (iced latte).
+- Photos: bulgogi bowl and bulgogi udon by Bon Café et Restaurant. Placeholders from Unsplash by David B Townsend (avocado toast), Dmitry Pavlovsky (bibimbap), Fahmi Fakhrudin (latte pour), Hyeryeong Song (dining room), Luis Covarrubias (croissant sandwich), nameless 3791 (latte), Lala Azizli (strawberry matcha), Petr Sevcovic (café tables), Marcin Skalij (tteokbokki), Jakub Kapusnak (Korean table), Jimmy Hu (7 train) and Demi DeHerrera (iced latte).
