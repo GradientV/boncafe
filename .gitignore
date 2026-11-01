@@ -9,7 +9,6 @@ images-raw/
 context/
 
 # local tooling / editor config
-.claude/
 .vercel
 
 # environment
@@ -21,3 +20,10 @@ context/
 .DS_Store
 Thumbs.db
 *.local
+
+# Notes, research and AI agent files: kept on this computer, never pushed
+AGENTS.md
+AGENTS-TEMPLATE/
+RESEARCH.md
+/context/
+/Context/
