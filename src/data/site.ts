@@ -1,6 +1,5 @@
 // everything about the business that might change: name, address, phone, hours, links.
 // the header, footer, hours tables, open/closed badge, structured data, sitemap and llms.txt all read from here.
-// sources for each fact are in RESEARCH.md
 import { hm, type Week } from '../lib/hours.ts';
 
 /**

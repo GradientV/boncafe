@@ -1,7 +1,7 @@
 // the whole menu. the menu page, the home-page house favorites and the menu
 // structured data are all built from this file.
 //
-// sources (details in RESEARCH.md):
+// sources:
 //  - food names, descriptions and prices: the café's own Grubhub/DoorDash menu (mirrored on res-discover,
 //    "Updated 2026"; spot-checked against Grubhub and DoorDash on Oct 30, 2026), with the newer names
 //    from the café's Instagram menu board (Oct 2025) where they differ. "Served with…" notes are from DoorDash

@@ -107,13 +107,6 @@ Skip link, real headings for every menu section and dish, a native `<dialog>` fo
 
 Import the repo. `vercel.json` sets the build (`npm run build` → `dist`), clean URLs, redirects, security headers (including a Content-Security-Policy that allows only the Google Maps embed) and caching. Turn on Vercel Web Analytics in the project; the script is already in each page (it 404s on localhost, which is expected).
 
-### Before launch
-
-- [ ] **Replace the Unsplash placeholder photos** with Bon Café's own (or book a shoot). See `src/data/photos.ts`.
-- [ ] Buy the domain and set `SITE_URL` in `src/data/site.ts`, then rebuild.
-- [ ] Go through **Confirm with the client** in `RESEARCH.md` (hours, phone, prices, drink prices, the Japanese and Korean entrée sections).
-- [ ] Add the website to their Google Business Profile, Grubhub/DoorDash pages and Instagram bio.
-
 ## Credits
 
 - Fonts: Jost and Barlow Condensed (SIL Open Font License), self-hosted via Fontsource.
